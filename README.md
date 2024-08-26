@@ -1,3 +1,8 @@
+## Deploy
+```bash
+forge script script/Deploy.s.sol:DeployScript --rpc-url ${SEPOLIA_RPC_URL} --broadcast --verify --etherscan-api-key ${ETHERSCAN_API_KEY}
+```
+
 # ERC-7579 Reference Implementation
 
 Reference Implementation to Minimal Modular Smart Account ([ERC-7579](https://eips.ethereum.org/EIPS/eip-7579)).
